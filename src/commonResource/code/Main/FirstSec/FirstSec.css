@@ -1,0 +1,77 @@
+
+.first-hightlight-wrapper{
+	background-image: url("../../../images/home/ipodPronew-sm.jpg");
+	height: 580px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: initial;
+	background-color: #fbfbfd;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;	
+	margin-bottom: 10px;
+}
+.ipod-caption {
+	color: #86868b;
+	font-size: 12px;
+	line-height: 1.33337;
+	font-weight: 400;
+	letter-spacing: -.01em;		
+	padding-top: 310px;
+}
+@media(min-width: 768px){
+	/* First section */
+	.first-hightlight-wrapper {
+		background-image: url("../../../images/home/ipodPronew.jpg");
+		min-height: 692px;
+	}	
+	.ipod-caption {
+		padding-top: 415px;
+	}
+}
+
+
+
+/* second */
+
+.second-hightlight-wrapper {
+	background-image: url("../../../images/home/macbookair-new-sm.jpg");
+	height: 580px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: initial;
+	background-color: #fbfbfd;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+	margin-bottom: 10px;	
+}
+
+@media (min-width: 768px) {
+	.second-hightlight-wrapper {
+		min-height: 692px;
+		background-image: url("../../../images/home/macbookair-new.jpg");
+	}
+	.new-alert {
+		color: #BF4801;
+		font-size: 18px;
+	}
+}
+
+
+/* third */
+
+.third-hightlight-wrapper {
+	background-image: url("../../../images/home/iphone11-pro-bg.jpg");
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+}
+
+
+
+
